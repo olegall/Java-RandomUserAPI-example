@@ -9,7 +9,7 @@ import java.net.URL;
 public class HttpClient {
 
     private final String url = "https://randomuser.me/api/";
-
+    // для коммита
     public StringBuffer getResponse() {
         try {
             URL obj = new URL(url);
