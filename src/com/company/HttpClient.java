@@ -6,14 +6,16 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class HttpClient {
+final class HttpClient {
 
-    private final String url = "https://randomuser.me/api/";
-    // для коммита
+    private String url = null;
+    public HttpClient(String url){
+        this.url = url;
+    }
+
     public StringBuffer getResponse() {
         try {
-            URL obj = new URL(url);
-            HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
+            HttpURLConnection connection = (HttpURLConnection) new URL(url).openConnection();
 
             connection.setRequestMethod("GET");
 

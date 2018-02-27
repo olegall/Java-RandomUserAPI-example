@@ -4,7 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Users {
-    private final int count = 110;
+
+    private int count;
+    public Users(int count){
+        this.count = count;
+    }
+
     private List<User> users = new ArrayList<User>();
 
     public void populate(){

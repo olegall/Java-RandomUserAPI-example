@@ -3,11 +3,10 @@ package com.company;
 import gherkin.deps.com.google.gson.JsonElement;
 import gherkin.deps.com.google.gson.JsonParser;
 
-public class Parser {
-    //private Logger logger = new Logger();
-
+final class Parser {
     public User getUserFromJSON() {
-        JsonElement jsonTree = new JsonParser().parse(new HttpClient().getResponse().toString());
+        StringBuffer httpResponse =  new HttpClient("https://randomuser.me/api/").getResponse();
+        JsonElement jsonTree = new JsonParser().parse(httpResponse.toString());
         if(jsonTree.isJsonObject()){
             JsonElement results = jsonTree.getAsJsonObject().get("results");
             if(results.isJsonArray()){
@@ -24,9 +23,14 @@ public class Parser {
                 JsonElement city = getValue(location, "city");
                 JsonElement street = getValue(location, "street");
 
-                //System.out.println("||| " + firstName + lastName + email + phone + nationality + state + city + street);
-                return new User(firstName.toString(), lastName.toString(), email.toString(), phone.toString(),
-                                nationality.toString(), state.toString(), city.toString(), street.toString());
+                JsonElement picture = getArrayObject(results,"picture");
+                JsonElement thumbnail = getValue(picture, "thumbnail");
+                JsonElement large = getValue(picture, "large");
+
+                Address address = new Address(state.toString(), city.toString(), street.toString());
+                Contacts contacts = new Contacts(email.toString(), phone.toString(), address);
+                Picture pictureObj = new Picture(thumbnail.toString(), large.toString());
+                return new User(firstName.toString(), lastName.toString(), nationality.toString(), contacts, pictureObj);
             }
         }
         Logger.logJsonChanged();
