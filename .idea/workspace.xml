@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="652420ff-6276-441c-8af7-9e7603d045ab" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/TestIdeaJava.iml" afterPath="$PROJECT_DIR$/TestIdeaJava.iml" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/HttpClient.class" afterPath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/HttpClient.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Logger.class" afterPath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Logger.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Main.class" afterPath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Main.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Parser.class" afterPath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Parser.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/User.class" afterPath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/User.class" />
-      <change beforePath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Users.class" afterPath="$PROJECT_DIR$/out/production/TestIdeaJava/com/company/Users.class" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/HttpClient.java" afterPath="$PROJECT_DIR$/src/com/company/HttpClient.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Logger.java" afterPath="$PROJECT_DIR$/src/com/company/Logger.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" afterPath="$PROJECT_DIR$/src/com/company/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Parser.java" afterPath="$PROJECT_DIR$/src/com/company/Parser.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/User.java" afterPath="$PROJECT_DIR$/src/com/company/User.java" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Users.java" afterPath="$PROJECT_DIR$/src/com/company/Users.java" />
+      <change beforePath="$PROJECT_DIR$/google-api-services-gmail-v1-rev37-1.18.0-rc.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/java-util-1.3.1.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,8 +65,8 @@
       <file leaf-file-name="Picture.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Picture.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="e#270#271#0" expanded="true" />
                 <element signature="e#302#303#0" expanded="true" />
@@ -342,7 +330,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -352,7 +339,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41666666" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -579,8 +566,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Picture.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#302#303#0" expanded="true" />
